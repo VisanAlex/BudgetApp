@@ -107,17 +107,17 @@ document.addEventListener('DOMContentLoaded', function() {
     function editIncome(id) {
       editat.innerHTML =`
       <div class="row center-align ">
-        <div class="col s1 m4 l4"><p class="right-align ">Edit: </p></div>
+        <div class="col s1 m4 l4"><p class="right-align salam">Edit: </p></div>
         <div class="col s12 m2 l2 input field ">
-          <textarea id="editNam" class="materialize-textarea center-align editNam validate"></textarea>
-            <label for="editNam">Description</label>
+          <textarea id="editNam" class="materialize-textarea center-align editNam validate ednam"></textarea>
+            <label for="editNam" class="lbldesc">Description</label>
         </div>
 
         <div class="col s12 m2 l2 input field ">
-          <input type="number"  id="editVal" class="materialize-textarea center editVal validate"></input>
-            <label for="editVal">Value</label>
+          <input type="number"  id="editVal" class="materialize-textarea center editVal validate edval"></input>
+            <label for="editVal" class="lblval">Value</label>
             <div class="col s1 m1 l1"></div>
-            <div class="col s12 m1 l1 right"><a class="btn-floating btn-large waves-effect waves-light green save" style="margin-left: 3rem; margin-top: -3rem; " ><i class="material-icons">save</i></a></div>
+            <div class="col s12 m1 l1 right"><a class="btn-floating btn-large waves-effect waves-light green save clasa" style="margin-left: 3rem; margin-top: -3rem; " ><i class="material-icons">save</i></a></div>
         </div>
       `;
       

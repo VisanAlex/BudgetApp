@@ -67,8 +67,26 @@ input::-webkit-inner-spin-button {
   .dividere .btn-large {
     margin-left: -5.2rem !important;
   }
-}
+  .dividere {
+    margin-left: 20% !important;
+  }
 
-.dividere {
-  margin-left: 20% !important;
+  .clasa {
+    margin-top: 1.5rem !important;
+    margin-right: 1rem !important;
+  }
+
+  .lblval {
+    margin-right: 1rem !important;
+    font-size: 1.3rem !important;
+  }
+
+  .lbldesc {
+    margin-right: -2rem !important;
+    font-size: 1.3rem !important;
+  }
+
+  .salam {
+    font-size: 1rem;
+  }
 }
