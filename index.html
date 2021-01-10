@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link href="" rel="stylesheet"> 
+  <link rel="stylesheet" href="styles.css">
+  <title> Budget App </title>
+</head>
+
+
+<body>
+  <div class="row">
+    <div class="row center-align">
+      <div class="col s12 head white-text">
+        <p class="avbudget">Available Budget: <h3 class="budget"></h3></p>
+        
+
+    </div>
+      <div class="row dividere">
+        <div class="divid">     
+        <div class="input-field col s4 l2 m2 box center">
+          <select id="income-expense">
+            <option value="1"selected>Expense</option>
+            <option value="2">Income</option>
+          </select>
+         </div>
+
+        <div class="input-field col s12 m4 l4 desc">
+          <i class="material-icons prefix">mode_edit</i>
+          <textarea id="description" class="materialize-textarea" ></textarea>
+          <label for="description">Name of the Item</label>
+        </div>
+
+        <div class="input-field col s12 m2 l2 val">
+          <i class="material-icons prefix">euro_symbol</i>
+          <input type="number" id="editVal" class="materialize-textarea validate"></input>
+          <label for="editVal">Value</label>
+        </div>
+
+        <div class="col s12 m1 l1">
+          <a class="btn-floating btn-large waves-effect waves-light green z-depth-2" style="margin-top: 0.5rem;" ><i class="material-icons">add</i></a>
+        </div>
+      
+      </div>
+    </div>
+
+    <div class=" editing center-align">
+    </div>
+      <div class="col s12 display center-align">
+        <div class="row incomes center-align">
+          <div class="col s12 m6 l6 income center-align "> 
+            <h6 class="green-text incomeamount">INCOME</h6>
+            <table class="highlight centered ">
+              <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Price</th>
+                </tr>
+              </thead>
+      
+              <tbody class="income-table">
+              </tbody>
+            </table>
+          </div>
+          <div class="col s12 m6 l6 expenses ">
+            <h6 class="red-text expenseamount">EXPENSES</h6>
+            <table class="highlight centered ">
+              <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Item Price</th> 
+                </tr>
+              </thead>
+              <tbody class="expenses-table">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>  
+
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+  <script src="../test budgetapp/app.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+</html>

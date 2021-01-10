@@ -1,0 +1,74 @@
+html,
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
+.header {
+  min-height: 340px;
+  line-height: 0.2rem;
+  margin-top: -1.3rem;
+}
+
+.incomex {
+  margin-left: 41% !important;
+}
+
+.head {
+  height: 15rem;
+  background-color: black;
+  line-height: 2.5rem;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://i.gifer.com/24Ql.gif");
+  background-repeat: none;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.display {
+  background-color: rgb(255, 255, 255);
+  line-height: 1rem;
+  grid-gap: 2rem;
+}
+
+.income {
+  margin-top: 2rem;
+  border: solid 2rem #ffffff;
+}
+
+.expenses {
+  margin-top: 2rem;
+  border: solid 2rem #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    overflow: scroll;
+  }
+  .valueadd {
+    margin: 0 auto !important;
+  }
+
+  .dividere .desc,
+  .val {
+    margin-left: -3.7rem !important;
+  }
+
+  .dividere .box {
+    margin-left: -1rem !important;
+  }
+
+  .dividere .btn-large {
+    margin-left: -5.2rem !important;
+  }
+}
+
+.dividere {
+  margin-left: 20% !important;
+}
