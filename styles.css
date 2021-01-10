@@ -16,7 +16,7 @@ body {
   height: 15rem;
   background-color: black;
   line-height: 2.5rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("https://i.gifer.com/24Ql.gif");
   background-repeat: none;
   background-size: cover;
