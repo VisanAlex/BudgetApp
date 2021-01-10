@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     let incomeAm = document.querySelector('.incomeamount');
     let expenseAm = document.querySelector('.expenseamount');
 
-  
+    let braza = 0;
   
     document.querySelector('.btn-large').addEventListener('click',function() {
       let incomeExpense = document.querySelector('#income-expense').value; 
